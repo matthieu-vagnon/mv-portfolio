@@ -31,7 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${geistSans.variable} ${geistMono.variable} ${dmSerifText.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSerifText.variable} font-geistSans antialiased`}
+      >
         <NextTopLoader />
         {children}
       </body>
